@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <title>validation</title>
+  </head>
+  <body>
+    <div class="login-box">
+      <h2>Login</h2>
+      <div id="error"></div>
+      <form id="form" action="/">
+        <div>
+          <label for="username">Username</label>
+          <input
+            id="username"
+            name="username"
+            type="text"
+            placeholder="username"
+          />
+        </div>
+        <div>
+          <label for="password">Password</label>
+          <input
+            id="password"
+            name="password"
+            type="password"
+            placeholder="username"
+          />
+        </div>
+        <p id="errorMessage"></p>
+        <input id="submit" type="submit" value="SUBMIT" />
+      </form>
+    </div>
+
+    <script src="/main.js"></script>
+  </body>
+</html>
